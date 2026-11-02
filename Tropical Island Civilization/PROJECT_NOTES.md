@@ -67,7 +67,7 @@ island_look.py       sun, fill lights, world, hero camera with numeric framing
 ## Build
 
 ```python
-exec(compile(open(r"D:\Tes Animasi-Motion-Blender\TROPICAL_ISLAND_CIVILIZATION\build_island.py",
+exec(compile(open(r"D:\Tes Animasi-Motion-Blender\Tropical Island Civilization\build_island.py",
                   encoding="utf-8").read(), "build_island.py", "exec"))
 ```
 

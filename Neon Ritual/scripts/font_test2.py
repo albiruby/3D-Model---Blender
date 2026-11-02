@@ -1,7 +1,7 @@
 import bpy
 import os
 
-BASE = r"D:\Tes Animasi-Motion-Blender\NEON_RITUAL"
+BASE = r"D:\Tes Animasi-Motion-Blender\Neon Ritual"
 FONTS = os.path.join(os.environ["LOCALAPPDATA"], "Microsoft", "Windows", "Fonts")
 
 bpy.ops.wm.read_homefile(use_empty=True)

@@ -11,7 +11,7 @@ import numpy as np
 SR = 48000
 DUR = 15.0
 N = int(SR * DUR)
-BASE = r"D:\Tes Animasi-Motion-Blender\NEON_RITUAL"
+BASE = r"D:\Tes Animasi-Motion-Blender\Neon Ritual"
 OUT = os.path.join(BASE, "audio")
 os.makedirs(OUT, exist_ok=True)
 rng = np.random.default_rng(20261102)

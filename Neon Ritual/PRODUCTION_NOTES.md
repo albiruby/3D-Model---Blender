@@ -1,4 +1,4 @@
-# NEON_RITUAL — PRODUCTION NOTES
+# Neon Ritual — PRODUCTION NOTES
 
 **Underground Electronic Experience — 15 s 3D event advertisement**
 Blender 5.2.3 LTS · EEVEE · 1080 × 1920 · 30 fps · 450 frames · H.264/AAC
@@ -251,7 +251,7 @@ ffmpeg -y -framerate 30 -start_number 1 -i frames/%04d.png \
 
 ```python
 # Build
-p = r"D:\Tes Animasi-Motion-Blender\NEON_RITUAL\NEON_RITUAL_BUILD.py"
+p = r"D:\Tes Animasi-Motion-Blender\Neon Ritual\NEON_RITUAL_BUILD.py"
 ns = {"__name__": "boot", "__file__": p}
 exec(compile(open(p, encoding="utf-8").read(), p, "exec"), ns)
 ns["build"]()          # builds and saves NEON_RITUAL.blend (~2 s)

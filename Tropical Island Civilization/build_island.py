@@ -4,7 +4,7 @@ build_island.py : entry point.
 
 Run inside Blender (Scripting workspace or MCP execute_blender_code):
 
-    exec(compile(open(r"D:\\Tes Animasi-Motion-Blender\\TROPICAL_ISLAND_CIVILIZATION\\build_island.py",
+    exec(compile(open(r"D:\\Tes Animasi-Motion-Blender\\Tropical Island Civilization\\build_island.py",
                       encoding="utf-8").read(), "build_island.py", "exec"))
 
 Everything is procedural: no external assets, no textures, no simulations,
@@ -14,7 +14,7 @@ no armatures and no keyframes.  Re-running rebuilds the island from scratch.
 import os
 import time
 
-BASE_DIR = r"D:\Tes Animasi-Motion-Blender\TROPICAL_ISLAND_CIVILIZATION"
+BASE_DIR = r"D:\Tes Animasi-Motion-Blender\Tropical Island Civilization"
 FINAL_PNG = os.path.join(BASE_DIR, "TROPICAL_ISLAND_FINAL.png")
 BLEND = os.path.join(BASE_DIR, "TROPICAL_ISLAND_CIVILIZATION.blend")
 RES = 1920

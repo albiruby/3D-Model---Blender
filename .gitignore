@@ -7,7 +7,7 @@ __pycache__/
 *.pyc
 
 # Regenerable final-frame sequence (the final MP4 is included)
-NEON_RITUAL/frames/
+Neon Ritual/frames/
 
 # OS metadata
 Thumbs.db

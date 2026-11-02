@@ -16,7 +16,7 @@ import os
 import random
 from mathutils import Vector
 
-BASE_DIR = globals().get("BASE_DIR") or r"D:\Tes Animasi-Motion-Blender\ABYSSAL_LIVING_CITY"
+BASE_DIR = globals().get("BASE_DIR") or r"D:\Tes Animasi-Motion-Blender\Abyssal Living City"
 TAU = math.pi * 2.0
 RNG = random.Random(20261101)
 

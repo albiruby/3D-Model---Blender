@@ -59,7 +59,7 @@ GIANT_ENERGY_REACTOR
 `build_reactor.py` is fully re-runnable and deterministic (seeded RNG). It purges every `RE_` object and rebuilds all 18 stages in ~24 s. Run inside Blender:
 
 ```python
-exec(compile(open(r"D:\Tes Animasi-Motion-Blender\GIANT_ENERGY_REACTOR\build_reactor.py").read(), "build_reactor.py", "exec"))
+exec(compile(open(r"D:\Tes Animasi-Motion-Blender\Giant Energy Reactor\build_reactor.py").read(), "build_reactor.py", "exec"))
 ```
 
 ## Blender 5.2 API notes (the script encodes these deliberately)

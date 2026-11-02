@@ -163,7 +163,7 @@ six slots survives. The skyline is recovered without new footprints:
 ## 7. Files
 
 ```
-ABYSSAL_LIVING_CITY/
+Abyssal Living City/
   Abyssal_Living_City_Build.py     entry point, module loader, modes
   Abyssal_Living_City.blend        final scene (static)
   Abyssal_Living_City_Final.png    final hero, 1920², 64 samples
@@ -192,7 +192,7 @@ ABYSSAL_LIVING_CITY/
 ## 8. Reproduction
 
 ```python
-p = r"D:\Tes Animasi-Motion-Blender\ABYSSAL_LIVING_CITY\Abyssal_Living_City_Build.py"
+p = r"D:\Tes Animasi-Motion-Blender\Abyssal Living City\Abyssal_Living_City_Build.py"
 ns = {"__name__": "boot", "__file__": p}
 exec(compile(open(p, encoding="utf-8").read(), p, "exec"), ns)
 ns["main"]("build")     # build only, ~35 s

@@ -6,7 +6,7 @@ import bpy
 import sys
 import os
 
-BASE = r"D:\Tes Animasi-Motion-Blender\NEON_RITUAL"
+BASE = r"D:\Tes Animasi-Motion-Blender\Neon Ritual"
 SCRIPTS = os.path.join(BASE, "scripts")
 if SCRIPTS not in sys.path:
     sys.path.insert(0, SCRIPTS)

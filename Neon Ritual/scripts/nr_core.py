@@ -10,7 +10,7 @@ import os
 import random
 from mathutils import Vector, Euler
 
-BASE = r"D:\Tes Animasi-Motion-Blender\NEON_RITUAL"
+BASE = r"D:\Tes Animasi-Motion-Blender\Neon Ritual"
 SCRIPTS = os.path.join(BASE, "scripts")
 PREVIEW = os.path.join(BASE, "PREVIEW")
 RENDERS = os.path.join(BASE, "renders")

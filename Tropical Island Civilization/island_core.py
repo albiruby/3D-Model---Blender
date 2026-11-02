@@ -13,7 +13,7 @@ import os
 import random
 from mathutils import Vector
 
-BASE_DIR = r"D:\Tes Animasi-Motion-Blender\TROPICAL_ISLAND_CIVILIZATION"
+BASE_DIR = r"D:\Tes Animasi-Motion-Blender\Tropical Island Civilization"
 TAU = math.pi * 2.0
 RNG = random.Random(20261101)
 

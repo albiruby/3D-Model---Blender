@@ -14,7 +14,7 @@ import os
 import random
 from mathutils import Vector
 
-BASE_DIR = r"D:\Tes Animasi-Motion-Blender\GIANT_ENERGY_REACTOR"
+BASE_DIR = r"D:\Tes Animasi-Motion-Blender\Giant Energy Reactor"
 TAU = math.pi * 2.0
 RND = random.Random(20261101)
 

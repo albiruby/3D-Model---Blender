@@ -19,9 +19,9 @@ import traceback
 try:
     _HERE = os.path.dirname(os.path.abspath(__file__))
 except NameError:
-    _HERE = r"D:\Tes Animasi-Motion-Blender\ABYSSAL_LIVING_CITY"
+    _HERE = r"D:\Tes Animasi-Motion-Blender\Abyssal Living City"
 if not os.path.isdir(os.path.join(_HERE, "scripts")):
-    _HERE = r"D:\Tes Animasi-Motion-Blender\ABYSSAL_LIVING_CITY"
+    _HERE = r"D:\Tes Animasi-Motion-Blender\Abyssal Living City"
 
 BASE_DIR = _HERE
 SCRIPTS = os.path.join(BASE_DIR, "scripts")

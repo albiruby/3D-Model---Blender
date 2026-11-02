@@ -5,13 +5,15 @@ NEON_RITUAL - final render and VSE encode helpers.
 import bpy
 import os
 import glob
+import shutil
 import subprocess
 
-BASE = r"D:\Tes Animasi-Motion-Blender\NEON_RITUAL"
+BASE = r"D:\Tes Animasi-Motion-Blender\Neon Ritual"
 FRAMES = os.path.join(BASE, "frames")
 AUDIO = os.path.join(BASE, "audio", "NEON_RITUAL_AUDIO.wav")
 FINAL = os.path.join(BASE, "NEON_RITUAL_FINAL.mp4")
-FFMPEG = r"D:\Tes Animasi-Motion-Blender\karhutla animation\node_modules\ffmpeg-static\ffmpeg.exe"
+FFMPEG = (os.environ.get("FFMPEG") or shutil.which("ffmpeg")
+          or os.path.join(BASE, "tools", "ffmpeg.exe"))
 
 
 def configure_final(samples=24):

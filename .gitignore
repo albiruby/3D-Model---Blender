@@ -1,0 +1,15 @@
+# Blender backups
+*.blend1
+*.blend2
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Regenerable final-frame sequence (the final MP4 is included)
+NEON_RITUAL/frames/
+
+# OS metadata
+Thumbs.db
+.DS_Store
+desktop.ini

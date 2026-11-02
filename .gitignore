@@ -13,3 +13,20 @@ Neon Ritual/frames/
 Thumbs.db
 .DS_Store
 desktop.ini
+
+# Local video references (not part of the portfolio)
+3D Flyer Party Event Animation Reference/
+
+# Paradise After Dark — local reference plates and diagnostic renders
+Paradise After Dark/visual reference/
+Paradise After Dark/renders/*/
+Paradise After Dark/renders/*.log
+Paradise After Dark/renders/anim_test_10f.mp4
+Paradise After Dark/renders/*.png
+!Paradise After Dark/renders/anim_preview_f*.png
+!Paradise After Dark/renders/video_check_f*.png
+Paradise After Dark/scripts/angles.py
+Paradise After Dark/scripts/angles2.py
+Paradise After Dark/scripts/anim_camera_test.py
+Paradise After Dark/scripts/diag.py
+Paradise After Dark/scripts/render_bench*.py
